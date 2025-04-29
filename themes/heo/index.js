@@ -33,10 +33,10 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import LatestPostsGroup from './components/LatestPostsGroup'
 import { NoticeBar } from './components/NoticeBar'
-import Announcement from './components/Announcement'
 import PostAdjacent from './components/PostAdjacent'
 import PostCopyright from './components/PostCopyright'
 import PostHeader from './components/PostHeader'
+import Announcement from './components/Announcement'
 import { PostLock } from './components/PostLock'
 import PostRecommend from './components/PostRecommend'
 import SearchNav from './components/SearchNav'
@@ -66,7 +66,7 @@ const LayoutBase = props => {
       {/* 通知横幅 */}
       {router.route === '/' ? (
         <>
-          <NoticeBar /><Announcement />
+          <NoticeBar /><Announcement {...props} />
           <Hero {...props} />
         </>
       ) : null}
