@@ -72,17 +72,6 @@ const LayoutBase = props => {
       {fullWidth ? null : <PostHeader {...props} isDarkMode={isDarkMode} />}
     </header>
   )
-
-import Announcement from '@/components/Announcement'
-export default function Home() {
-  return (
-    <>
-      <Hero />
-      <Announcement post={announcementData} />
-      {/* 其他内容 */}
-    </>
-  )
-}
        
   // 右侧栏 用户信息+标签列表
   const slotRight =
