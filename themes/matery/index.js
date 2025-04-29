@@ -271,7 +271,7 @@ const LayoutSlug = props => {
                   {/* Notion文章主体 */}
                   <section
                     data-wow-delay='.1s'
-                    className={`wow fadeInUp justify-center mx-auto ${fullWidth ? '' : 'max-w-2xl lg:max-w-full'}`}>
+                    className={`wow fadeInUp justify-center mx-auto mt-4 ${fullWidth ? '' : 'max-w-2xl lg:max-w-full'}`}>
                     <WWAds orientation='horizontal' />
                     {post && <NotionPage post={post} />}
                     <AdSlot />
