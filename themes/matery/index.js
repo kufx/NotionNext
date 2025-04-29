@@ -259,7 +259,7 @@ const LayoutSlug = props => {
               {/* 文章信息 */}
               {post?.type && post?.type === 'Post' && (
                 <>
-                  <div data-wow-delay='.2s' className='wow fadeInUp px-10'>
+                  <div data-wow-delay='.2s' className='wow fadeInUp px-4'>
                     <ArticleInfo post={post} />
                   </div>
                   <hr />
