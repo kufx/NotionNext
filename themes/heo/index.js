@@ -36,7 +36,6 @@ import { NoticeBar } from './components/NoticeBar'
 import PostAdjacent from './components/PostAdjacent'
 import PostCopyright from './components/PostCopyright'
 import PostHeader from './components/PostHeader'
-import Announcement from './components/Announcement'
 import { PostLock } from './components/PostLock'
 import PostRecommend from './components/PostRecommend'
 import SearchNav from './components/SearchNav'
@@ -66,7 +65,7 @@ const LayoutBase = props => {
       {/* 通知横幅 */}
       {router.route === '/' ? (
         <>
-          <NoticeBar /><Announcement {...props} />
+          <NoticeBar />
           <Hero {...props} />
         </>
       ) : null}
