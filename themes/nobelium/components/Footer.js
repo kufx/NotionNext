@@ -15,12 +15,6 @@ export const Footer = (props) => {
        !fullWidth ? 'max-w-2xl px-4' : 'px-4 md:px-24'
      }`}
    >
-
-<NotionComments 
-  postId="your-post-id" 
-  className="optional-class"  
-  userEmail="optional-default-email" 
-/>
   
      <DarkModeButton className='text-center py-4'/>
      <hr className="border-gray-200 dark:border-gray-600" />
